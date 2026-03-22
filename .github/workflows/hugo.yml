@@ -35,11 +35,10 @@ jobs:
       - name: Checkout repository with submodules
         uses: actions/checkout@v4
         with:
-          submodules: recursive   # ✅ ensures hugo-coder theme is pulled
+          submodules: recursive  # ✅ pulls hugo-coder theme
 
-      - name: Go to Hugo blog folder and print info
+      - name: Print current directory
         run: |
-          cd hugo-coder-blog/flavio-blog
           echo "Current directory:"
           pwd
           echo "Would run: git merge --no-ff (not actually executing!)"
@@ -52,7 +51,6 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Build with Hugo
-        working-directory: hugo-coder-blog/flavio-blog
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
