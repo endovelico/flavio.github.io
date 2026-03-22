@@ -37,12 +37,6 @@ jobs:
         with:
           submodules: recursive  # ✅ pulls hugo-coder theme
 
-      - name: Print current directory
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Would run: git merge --no-ff (not actually executing!)"
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://flavio.github.io/pt-pt/authors/</loc>
+    <loc>http://localhost:1313/pt-pt/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flavio.github.io/authors/"
+                href="http://localhost:1313/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-pt"
-                href="https://flavio.github.io/pt-pt/authors/"
+                href="http://localhost:1313/pt-pt/authors/"
                 />
   </url><url>
-    <loc>https://flavio.github.io/pt-pt/categories/</loc>
+    <loc>http://localhost:1313/pt-pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flavio.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-pt"
-                href="https://flavio.github.io/pt-pt/categories/"
+                href="http://localhost:1313/pt-pt/categories/"
                 />
   </url><url>
-    <loc>https://flavio.github.io/pt-pt/</loc>
+    <loc>http://localhost:1313/pt-pt/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flavio.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-pt"
-                href="https://flavio.github.io/pt-pt/"
+                href="http://localhost:1313/pt-pt/"
                 />
   </url><url>
-    <loc>https://flavio.github.io/pt-pt/series/</loc>
+    <loc>http://localhost:1313/pt-pt/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flavio.github.io/series/"
+                href="http://localhost:1313/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-pt"
-                href="https://flavio.github.io/pt-pt/series/"
+                href="http://localhost:1313/pt-pt/series/"
                 />
   </url><url>
-    <loc>https://flavio.github.io/pt-pt/tags/</loc>
+    <loc>http://localhost:1313/pt-pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://flavio.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-pt"
-                href="https://flavio.github.io/pt-pt/tags/"
+                href="http://localhost:1313/pt-pt/tags/"
                 />
   </url>
 </urlset>
