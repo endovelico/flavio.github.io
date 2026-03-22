@@ -1,0 +1,20 @@
+/* Outer avatar container */
+.avatar {
+    width: 250px;         /* Outer circle size */
+    height: 250px;
+    border-radius: 50%;   /* Circle */
+    border: 4px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    overflow: hidden;     /* Important to clip the image */
+    margin: 0 auto;
+    display: block;
+}
+
+/* Make the image fill the circle */
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* Makes the image cover the circle */
+    display: block;
+}
+
