@@ -1,4 +1,4 @@
-baseURL = "https://flavio.github.io"
+baseURL = "https://articulum"
 title = "flaviosousa"
 theme = "hugo-coder"
 languageCode = "en"
